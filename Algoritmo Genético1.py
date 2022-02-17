@@ -72,3 +72,4 @@ print("Melhores soluções : {solution}".format(solution=solution))
 print("Valor da função fitness da solução = {solution_fitness}".format(solution_fitness=solution_fitness))
 prediction = float(modelo.predict([np.array(solution)]))
 print("Valor ótimo calculado pelo modelo : {prediction}".format(prediction=prediction))
+# como disse, não trabalhei muito nesta versão pública... mas fica a ideia! abraços
